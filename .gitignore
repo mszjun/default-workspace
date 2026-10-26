@@ -1,0 +1,23 @@
+# build outputs
+build/
+build-*/
+toolchain/smoke/build-*/
+
+# IDE / local
+.vs/
+*.user
+*.suo
+
+# python tool caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
